@@ -1,24 +1,15 @@
 import React,{useState} from 'react'
+import { useDispatch } from 'react-redux'
+import { bagAction } from '../redux/Slice/bagSlice';
 
-function BagCard() {
-  let [data,setData] = useState( {
-    id: '001',
-    image: 'images/1.jpg',
-    company: 'Carlton London',
-    item_name: 'Rhodium-Plated CZ Floral Studs',
-    original_price: 1045,
-    current_price: 606,
-    discount_percentage: 42,
-    return_period: 14,
-    delivery_date: '10 Oct 2023',
-    rating: {
-        stars: 4.5,
-        count: 1400,
-    },
-},)
+function BagCard({data}) {
+  let dispatch = useDispatch();
+  let handleDelete = (id) => {
+    dispatch(bagAction.removeFromCart(id))
+  }
   return (
     <>
-    <div className="card lg:card-side bg-base-100 shadow-xl h-[200px]">
+    <div className="card card-side bg-base-100 shadow-xl sm:h-[200px] my-10">
   <figure>
     <img
       src={data.image}
@@ -30,7 +21,9 @@ function BagCard() {
     <p>{data.item_name}</p>
     <p className='text-base font-semibold'>Rs {data.original_price}</p>
     <div className="card-actions justify-end">
-      <button className="btn btn-error">Remove</button>
+      <button className="btn btn-error"
+      onClick={() => handleDelete(data.id)}
+      >Remove</button>
     </div>
   </div>
 </div>
