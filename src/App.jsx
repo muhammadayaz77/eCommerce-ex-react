@@ -4,7 +4,7 @@ import axios from 'axios';
 import { useDispatch } from 'react-redux';
 import { itemsAction } from './redux/Slice/itemsSlice';
 import { loadingAction } from './redux/Slice/loadingSlice';
-let API_URL = 'http://localhost:3000/api/data';
+let API_URL = 'https://e-commerce-express-one.vercel.app/api/data';
 function App() {
   let dispatch = useDispatch();
   useEffect(() => {
