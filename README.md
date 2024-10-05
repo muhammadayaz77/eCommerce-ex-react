@@ -27,8 +27,8 @@ This is a full-stack e-commerce web application built with **React** on the fron
 
 - **Frontend**: React, JavaScript, Tailwind CSS
 - **Backend**: Express, Node.js
-- **Database**: [Database you're using, e.g., MongoDB, Firebase, etc.]
-- **Deployment**: [Details on how you deployed it, e.g., Vercel for backend, Netlify for frontend, etc.]
+- **Database**: Will adding in Future
+- **Deployment**: [Deploy with verce (Backend + Frontend)]
 
 ## Live Demo
 
