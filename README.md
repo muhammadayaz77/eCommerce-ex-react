@@ -1,14 +1,3 @@
-# Frontend Live : 
-https://e-commerce-ex-react.vercel.app/
-
-# Backend Live : 
-https://e-commerce-express-one.vercel.app/api/data
-
-# Backend Repo : 
-https://github.com/muhammadayaz77/eCommerce-express
-
-Here's the updated README with a live link, project screenshot section, and the removed methods:
-
 ---
 
 # E-Commerce Website
@@ -43,7 +32,7 @@ This is a full-stack e-commerce web application built with **React** on the fron
 
 ## Live Demo
 
-Check out the live version of the project: [Live Demo Link](#) <!-- Replace with the actual link -->
+Check out the live version of the project: [Live Demo Link](https://e-commerce-ex-react.vercel.app/) 
 
 ## Screenshots
 
@@ -131,5 +120,9 @@ Feel free to submit issues or pull requests if you find any bugs or have feature
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
+# Backend Live : 
+https://e-commerce-express-one.vercel.app/api/data
 
-Make sure to replace the placeholders like `#` with actual URLs for the live demo and images!
+# Backend Repo : 
+https://github.com/muhammadayaz77/eCommerce-express
+
