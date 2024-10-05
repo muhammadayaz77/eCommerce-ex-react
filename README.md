@@ -102,7 +102,7 @@ Navigate between the home and bag sections to add or review your selections.
 
 ### Get Products
 
-- **Endpoint**: `/api/products`
+- **Endpoint**: `/api/data`
 - **Method**: GET
 - **Description**: Fetches all available products for display on the homepage.
 
