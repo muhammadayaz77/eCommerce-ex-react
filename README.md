@@ -38,10 +38,10 @@ Check out the live version of the project: [Live Demo Link](https://e-commerce-e
 
 Here’s a preview of the application:
 
-https://github.com/user-attachments/assets/7e30298d-a514-44fb-ad17-db804f8a805c
+![eCommerce-Home](https://github.com/user-attachments/assets/7e30298d-a514-44fb-ad17-db804f8a805c)
 
-https://github.com/user-attachments/assets/4b50c856-a6f2-4c19-89d1-4a01b8d4144e
-)
+![eCommerce-Bag](https://github.com/user-attachments/assets/4b50c856-a6f2-4c19-89d1-4a01b8d4144e)
+
 
 ## Installation
 
